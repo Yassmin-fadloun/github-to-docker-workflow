@@ -7,7 +7,7 @@ The repository includes a Dockerfile and instructions for building, running, com
 
 ## Project Architecture
 
-![Projectarch.png](Projectarch.png)
+![project1arch.png](project1arch.png)
 
 ## Project Overview
 
