@@ -35,7 +35,7 @@ The steps are visually represented in the system architecture diagram available 
 
 ### 1. Clone a Website from GitHub
 ```bash
-$ git clone [https://github.com/MenaMagdyHalem/Course-Docker.git](https://github.com/MenaMagdyHalem/Course-Docker.git)
+$ git clone https://github.com/MenaMagdyHalem/Course-Docker.git
 ```
 ### 2. Create a [Dockerfile](./Dockerfile)
 
