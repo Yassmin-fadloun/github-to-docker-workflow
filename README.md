@@ -54,7 +54,7 @@ $ docker build -t webserver .
 ```bash
 $ docker run -it --rm -d -p 8080:80 --name web webserver
 ```
-#### 5. Access it in your browser:
+### 5. Access it in your browser:
 ```bash
 http://localhost:8080
 ```
