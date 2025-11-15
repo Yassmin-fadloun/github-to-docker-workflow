@@ -35,7 +35,7 @@ The steps are visually represented in the system architecture diagram available 
 
 ### 1. Clone a Website from GitHub
 ```bash
-$ git clone https://github.com/MenaMagdyHalem/Course-Docker.git
+$ git clone [https://github.com/MenaMagdyHalem/Course-Docker.git](https://github.com/MenaMagdyHalem/Course-Docker.git)
 ```
 ### 2. Create a [Dockerfile](./Dockerfile)
 
@@ -60,7 +60,7 @@ http://localhost:8080
 ```
 ![webimage.png](Webimage.png)
 
-### 6. Commit the image.
+### 6. Commit the image
 ```bash
 docker commit web yassminfadloun/newweb
 ```
@@ -72,7 +72,7 @@ docker login
 ```
 #### Push:
 ```bash
- docker push yassminfadloun/newweb:latest
+docker push yassminfadloun/newweb:latest
 ```
 ![dockerpush.png](Dockerpush.png)
 ![dokerhubimage.png](Dokerhubimage.png)
