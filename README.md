@@ -7,7 +7,7 @@ The repository includes a Dockerfile and instructions for building, running, com
 
 ## Project Architecture
 
-![Architecture Diagram](project1arch.png)
+![Architecture Diagram](Project1arch.png)
 
 ## Project Overview
 
@@ -36,7 +36,8 @@ The steps are visually represented in the system architecture diagram available 
 ```bash
 $ git clone https://github.com/MenaMagdyHalem/Course-Docker.git
 ```
-### 2. Create a Dockerfile
+### 2. Create a [Dockerfile](./Dockerfile)
+
 
 ```bash
 $ vim Dockerfile
@@ -46,7 +47,7 @@ $ vim Dockerfile
 ```bash
 $ docker build -t webserver .
 ```
-![dockerbuild.png](dockerbuild.png)
+![dockerbuild.png](Dockerbuild.png)
 
 ### 4. run the image publishing port 8080 to be mapped to port 80 on the host
 ```bash
@@ -56,7 +57,7 @@ $ docker run -it --rm -d -p 8080:80 --name web webserver
 ```bash
 http://localhost:8080
 ```
-![webimage.png](webimage.png)
+![webimage.png](Webimage.png)
 
 ### 6. Commit the image.
 ```bash
@@ -72,5 +73,5 @@ docker login
 ```bash
  docker push yassminfadloun/newweb:latest
 ```
-![dockerpush.png](dockerpush.png)
-![dokerhubimage.png](dokerhubimage.png)
+![dockerpush.png](Dockerpush.png)
+![dokerhubimage.png](Dokerhubimage.png)
