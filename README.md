@@ -46,7 +46,7 @@ $ vim Dockerfile
 
 ### 3. Build the image from the Dockerfile
 ```bash
-$ docker build -t webserver
+$ docker build -t webserver .
 ```
 ![dockerbuild.png](Dockerbuild.png)
 
